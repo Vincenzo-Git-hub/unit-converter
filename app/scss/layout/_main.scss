@@ -1,0 +1,17 @@
+@use "../util";
+
+.main {
+  text-align: center;
+  background-color: var(--Light-gray);
+  padding: 2.25rem 1.5625rem;
+
+  &__card {
+    background-color: var(--White);
+    padding: 1.25rem;
+    border-radius: 8px;
+  }
+
+  &__card + &__card {
+    margin-top: 1.5625rem;
+  }
+}

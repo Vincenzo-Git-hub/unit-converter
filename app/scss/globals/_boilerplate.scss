@@ -10,5 +10,18 @@ html {
 
 body {
   margin: 0;
+  padding-block: 2rem;
   font-family: sans-serif;
+  width: min(90%, 35rem);
+  margin-inline: auto;
+}
+
+input {
+  display: block;
+  margin: auto;
+}
+
+button {
+  border: none;
+  outline: none;
 }

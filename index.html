@@ -11,11 +11,27 @@
 </head>
 
 <body>
-    <input type="text" id="input-el">
-    <button id="input-btn">Convert</button>
-    <p id="lenght"></p>
-    <p id="volume"></p>
-    <p id="mass"></p>
+    <header class="header">
+        <h1 class="header__title">Metric/Imperial Unit Convention</h1>
+        <input type="text" class="header__input" id="input-el">
+        <button class="header__btn" id="input-btn">Convert</button>
+    </header>
+
+    <main class="main">
+        <article class="main__card">
+            <h2 class="main__title">Lenght (Meter/Feet)</h2>
+            <p id="lenght"></p>
+        </article>
+        <article class="main__card">
+            <h2 class="main__title">Volume (Liters/Gallons)</h2>
+            <p id="volume"></p>
+        </article>
+        <article class="main__card">
+            <h2 class="main__title">Mass (Kilograms/Pounds)</h2>
+            <p id="mass"></p>
+        </article>
+    </main>
+
 </body>
 
 </html>

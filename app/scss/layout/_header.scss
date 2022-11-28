@@ -1,0 +1,19 @@
+@use "../util";
+
+.header {
+  text-align: center;
+  padding: 2rem 4rem;
+  &__input {
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+    max-width: 7.3125rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__btn {
+    padding: 0.56rem 1.72rem;
+    border-radius: 5px;
+    background-color: var(--White);
+  }
+}

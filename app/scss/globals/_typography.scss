@@ -1,0 +1,19 @@
+@use "../util";
+
+.header {
+  background-color: var(--Blue);
+  &__title {
+    color: var(--White);
+  }
+
+  &__btn {
+    color: var(--Blue-gray);
+  }
+}
+
+.main {
+  &__title {
+    color: var(--Blue-gray);
+    font-size: 1.25rem;
+  }
+}
